@@ -1,5 +1,5 @@
 import React from "react";
-import { PhotoCardWithQuery } from "../container/PhotoCardWithQuery";
+import { PhotoCardWithQuery } from "../../container/PhotoCardWithQuery";
 import { Layout } from "../Layout";
 
 export const Detail = ({ detailId }) => (

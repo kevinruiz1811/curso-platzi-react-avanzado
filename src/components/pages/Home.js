@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { ListOfCategories } from "../ListOfCategories";
-import { ListOfPhotoCards } from "../container/ListOfPhotoCards";
+import { ListOfPhotoCards } from "../../container/ListOfPhotoCard";
 import { Helmet } from "react-helmet";
 
 export const Home = ({ id }) => {

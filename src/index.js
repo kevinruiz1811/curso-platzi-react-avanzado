@@ -6,7 +6,7 @@ import App from "./App";
 import Context from "./Context";
 
 const client = new ApolloClient({
-  uri: "https://petgram-server.midudev.now.sh/graphql",
+  uri: "https://petgram-api-delta.vercel.app/graphql",
   request: (operation) => {
     const token = window.sessionStorage.getItem("token");
     const authorization = token ? `Bearer ${token}` : "";
